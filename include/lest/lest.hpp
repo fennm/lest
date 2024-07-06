@@ -85,6 +85,7 @@
 #if defined (__clang__)
 # pragma clang diagnostic ignored "-Waggregate-return"
 # pragma clang diagnostic ignored "-Woverloaded-shift-op-parentheses"
+# pragma clang diagnostic ignored "-Wmissing-braces"
 # pragma clang diagnostic push
 # pragma clang diagnostic ignored "-Wunused-comparison"
 #elif defined (__GNUC__)
